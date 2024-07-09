@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_as",
+  "info": {
+    "singularName": "page-a",
+    "pluralName": "page-as",
+    "displayName": "APage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {}
+}
