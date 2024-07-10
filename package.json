@@ -11,6 +11,7 @@
     "deploy": "strapi deploy"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.1.1",
     "@offset-dev/strapi-calendar": "^0.1.1",
     "@strapi/plugin-cloud": "4.25.2",
     "@strapi/plugin-graphql": "^4.25.2",
