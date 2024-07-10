@@ -368,12 +368,15 @@ export interface ApiPagePage extends Schema.CollectionType {
     singularName: 'page';
     pluralName: 'pages';
     displayName: 'page';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    test1: Attribute.String;
+    Title: Attribute.String;
+    Description: Attribute.Text;
+    Media: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
